@@ -1,7 +1,8 @@
 # Point-Cloud-Renconstruction-and-Camera-Calibration
 Implementation of using structured light for 3D depth reconstruction, based on the techniques discussed in:  
-  
- 
+*High-Accuracy Stereo Depth Maps Using Structured Light  
+*Projector calibration for 3D scanning using virtual target images 
+
 The project folder can be divided into two parts: calibration and reconstruction.
 
 Each folder contains necessary functions in order to meet project's specification.
