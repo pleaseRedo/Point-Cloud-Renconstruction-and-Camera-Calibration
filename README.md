@@ -11,7 +11,7 @@ Each folder contains necessary functions in order to meet project's specificatio
 
 # reconstruction
 
-NOTE: Before doing reconstruction, please make sure you can camera and projector's extrinsic ans intrinsic matrices.
+NOTE: Before doing reconstruction, please make sure you have obtained your camera and projector's extrinsic and intrinsic matrices.
 
 Running reconstruction is simple, just calling function reconstruction(path,prefix,first,digits,suffix,outputName,use_calibration).
 
@@ -21,7 +21,7 @@ The program will do reconstruction from images in 'head_own' folder. And output 
 
 Details of first five parameters can be found in load_sequence_color.m
 
-The last parameter must be in the form of 0 and 1.
+The last parameter must be either 0 or 1.
 
 If input is 1 then the program will use your calibrated matrices.
 
@@ -41,7 +41,7 @@ Performing calibration can be done by calling function calibration(isSynthetic,i
 Each of these paramenters are flags telling program what data sets to use.
 All data sets must be placed at the same directory as the function is located. 
 
-After running above function, make sure to use calib_gui from TOOLBOX_calib to finshi the calibration process.
+After running above function, make sure to use calib_gui from TOOLBOX_calib to finish the calibration process.
 This tool box is introduced by lab2/caltech.
 
 
