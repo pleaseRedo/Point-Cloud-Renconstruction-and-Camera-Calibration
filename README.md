@@ -52,5 +52,7 @@ For reconstruction, there are several subfolders named by the data set. Each sub
 
 For calibration, the subfolders are named by the calibration data sets. Each subfolder contains homographed images and the computed extrinsic/ intrinsic matrices for camera and projector.
 
+# Feel free to leave your comments on issue section
+
 # Please refer to file report.pdf for further project details 
 ![result](https://github.com/pleaseRedo/Point-Cloud-Renconstruction-and-Camera-Calibration/blob/master/112617351124_0report_8.jpg)
