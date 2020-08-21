@@ -9,7 +9,7 @@ Each folder contains necessary functions in order to meet project's specificatio
 
 
 
-# reconstruction
+# Reconstruction
 
 NOTE: Before doing reconstruction, please make sure you have obtained your camera and projector's extrinsic and intrinsic matrices.
 
